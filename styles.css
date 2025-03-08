@@ -33,9 +33,29 @@ nav ul li a:hover {
     text-align: center;
     padding: 100px 20px;
 }
-.intro {
+.intro, .skills, .projects {
     text-align: center;
     padding: 50px;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+.skills ul li {
+    background: #2ecc71;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.projects .project {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 footer {
     background: #3498db;
